@@ -15,13 +15,12 @@ df = pd.read_csv('data.csv')
 # print(df.describe())
 # print(df.info())
 
-# Splitting the label and features
+# Data Preprocessing
 y = df.Label
 # print(y.head())
 df = df.drop('Label', axis=1)
 # print(df.head())
 
-# Handling missing values by filling them with an empty string
 df['Body'].fillna('', inplace=True)
 y.fillna('', inplace=True)
 
