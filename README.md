@@ -1,4 +1,4 @@
-# Fake News Detection Using Python and Machine-Learning
+# Fake News Detection Using Python and Machine Learning
 
 This repository contains Python code for text classification using the Naive Bayes and Passive Aggressive Classifier algorithms. The code is designed to work with a dataset provided in a CSV file named `data.csv`. The dataset contains text data in the "Body" column and corresponding labels in the "Label" column.
 
